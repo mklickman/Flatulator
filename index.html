@@ -4,12 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calculator</title>
+  <title>The Flatulator | Math + Farts = Duh</title>
   <link href="styles.css" rel="stylesheet">
   <script src="script.js" defer></script>
+  <style>
+    .title {
+      text-align: center;
+      font-family: monospace;
+      color: white;
+      text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+      font-size: 3rem;
+      margin-bottom: 0.75rem;
+    }
+    .sound-on {
+      margin-bottom: 3rem;
+      color: white;
+      text-align: center;
+      text-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+    }
+  </style>
 </head>
 <body>
-  <div class="calculator-grid">
+  <h1 class="title">The Flatulator</h1>
+  <p class="sound-on">(Sound on. Obviously.)</p>
+  <div class="calculator-grid" id="calculator">
     <div class="output">
       <div data-previous-operand class="previous-operand"></div>
       <div data-current-operand class="current-operand"></div>
